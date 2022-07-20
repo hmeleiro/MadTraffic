@@ -1,0 +1,341 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-109-transporte-ptomedida-historico.zip'
+downloaded 68.6 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-108-transporte-ptomedida-historico.zip'
+downloaded 71.3 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-107-transporte-ptomedida-historico.zip'
+downloaded 68.2 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-106-transporte-ptomedida-historico.zip'
+downloaded 71.6 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-105-transporte-ptomedida-historico.zip'
+downloaded 65.3 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-104-transporte-ptomedida-historico.zip'
+downloaded 75.4 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-103-transporte-ptomedida-historico.zip'
+downloaded 75.3 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-102-transporte-ptomedida-historico.zip'
+downloaded 72.0 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-101-transporte-ptomedida-historico.zip'
+downloaded 74.4 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-100-transporte-ptomedida-historico.zip'
+downloaded 71.8 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-99-transporte-ptomedida-historico.zip'
+downloaded 70.1 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-98-transporte-ptomedida-historico.zip'
+downloaded 73.1 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-97-transporte-ptomedida-historico.zip'
+downloaded 71.0 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-96-transporte-ptomedida-historico.zip'
+downloaded 72.9 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-95-transporte-ptomedida-historico.zip'
+downloaded 69.6 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-94-transporte-ptomedida-historico.zip'
+downloaded 72.4 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-93-transporte-ptomedida-historico.zip'
+downloaded 62.8 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-92-transporte-ptomedida-historico.zip'
+downloaded 62.3 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-91-transporte-ptomedida-historico.zip'
+downloaded 68.2 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-90-transporte-ptomedida-historico.zip'
+downloaded 69.3 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-89-transporte-ptomedida-historico.zip'
+downloaded 70.3 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-88-transporte-ptomedida-historico.zip'
+downloaded 67.5 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-87-transporte-ptomedida-historico.zip'
+downloaded 62.9 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-86-transporte-ptomedida-historico.zip'
+downloaded 65.3 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-85-transporte-ptomedida-historico.zip'
+downloaded 62.9 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-84-transporte-ptomedida-historico.zip'
+downloaded 61.9 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-83-transporte-ptomedida-historico.zip'
+downloaded 57.5 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-82-transporte-ptomedida-historico.zip'
+downloaded 65.7 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-81-transporte-ptomedida-historico.zip'
+downloaded 68.2 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-80-transporte-ptomedida-historico.zip'
+downloaded 72.1 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-79-transporte-ptomedida-historico.zip'
+downloaded 71.2 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-78-transporte-ptomedida-historico.zip'
+downloaded 70.0 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-77-transporte-ptomedida-historico.zip'
+downloaded 72.1 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-76-transporte-ptomedida-historico.zip'
+downloaded 68.6 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-75-transporte-ptomedida-historico.zip'
+downloaded 66.8 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-74-transporte-ptomedida-historico.zip'
+downloaded 69.0 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-73-transporte-ptomedida-historico.zip'
+downloaded 67.4 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-72-transporte-ptomedida-historico.zip'
+downloaded 69.1 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-71-transporte-ptomedida-historico.zip'
+downloaded 65.6 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-70-transporte-ptomedida-historico.zip'
+downloaded 69.4 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-69-transporte-ptomedida-historico.zip'
+downloaded 62.9 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-68-transporte-ptomedida-historico.zip'
+downloaded 69.5 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-67-transporte-ptomedida-historico.zip'
+downloaded 69.3 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-66-transporte-ptomedida-historico.zip'
+downloaded 67.4 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-65-transporte-ptomedida-historico.zip'
+downloaded 70.1 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-64-transporte-ptomedida-historico.zip'
+downloaded 67.4 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-63-transporte-ptomedida-historico.zip'
+downloaded 69.5 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-62-transporte-ptomedida-historico.zip'
+downloaded 71.4 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-61-transporte-ptomedida-historico.zip'
+downloaded 70.7 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-60-transporte-ptomedida-historico.zip'
+downloaded 72.4 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-59-transporte-ptomedida-historico.zip'
+downloaded 70.1 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-58-transporte-ptomedida-historico.zip'
+downloaded 71.7 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-57-transporte-ptomedida-historico.zip'
+downloaded 65.1 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-56-transporte-ptomedida-historico.zip'
+downloaded 82.1 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-55-transporte-ptomedida-historico.zip'
+downloaded 73.0 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-54-transporte-ptomedida-historico.zip'
+downloaded 77.3 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-52-transporte-ptomedida-historico.zip'
+downloaded 90.0 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-53-transporte-ptomedida-historico.zip'
+downloaded 78.3 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-51-transporte-ptomedida-historico.zip'
+downloaded 85.6 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-50-transporte-ptomedida-historico.zip'
+downloaded 90.8 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-49-transporte-ptomedida-historico.zip'
+downloaded 91.3 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-48-transporte-ptomedida-historico.zip'
+downloaded 93.3 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-47-transporte-ptomedida-historico.zip'
+downloaded 98.7 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-46-transporte-ptomedida-historico.zip'
+downloaded 100.6 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-45-transporte-ptomedida-historico.zip'
+downloaded 82.4 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-44-transporte-ptomedida-historico.zip'
+downloaded 92.1 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-32-transporte-ptomedida-historico.zip'
+downloaded 95.4 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-33-transporte-ptomedida-historico.zip'
+downloaded 91.3 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-34-transporte-ptomedida-historico.zip'
+downloaded 91.9 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-35-transporte-ptomedida-historico.zip'
+downloaded 65.2 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-36-transporte-ptomedida-historico.zip'
+downloaded 97.5 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-37-transporte-ptomedida-historico.zip'
+downloaded 91.4 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-38-transporte-ptomedida-historico.zip'
+downloaded 100.4 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-39-transporte-ptomedida-historico.zip'
+downloaded 92.3 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-40-transporte-ptomedida-historico.zip'
+downloaded 97.1 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-41-transporte-ptomedida-historico.zip'
+downloaded 96.7 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-42-transporte-ptomedida-historico.zip'
+downloaded 93.3 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-43-transporte-ptomedida-historico.zip'
+downloaded 95.2 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-18-transporte-ptomedida-historico.zip'
+downloaded 62.0 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-21-transporte-ptomedida-historico.zip'
+downloaded 84.7 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-22-transporte-ptomedida-historico.zip'
+downloaded 94.9 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-23-transporte-ptomedida-historico.zip'
+downloaded 94.6 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-24-transporte-ptomedida-historico.zip'
+downloaded 93.6 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-25-transporte-ptomedida-historico.zip'
+downloaded 78.7 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-26-transporte-ptomedida-historico.zip'
+downloaded 71.5 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-27-transporte-ptomedida-historico.zip'
+downloaded 89.8 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-29-transporte-ptomedida-historico.zip'
+downloaded 75.2 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-28-transporte-ptomedida-historico.zip'
+downloaded 96.5 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-30-transporte-ptomedida-historico.zip'
+downloaded 86.8 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-31-transporte-ptomedida-historico.zip'
+downloaded 93.2 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-6-transporte-ptomedida-historico.zip'
+downloaded 61.2 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-7-transporte-ptomedida-historico.zip'
+downloaded 55.7 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-8-transporte-ptomedida-historico.zip'
+downloaded 63.1 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-9-transporte-ptomedida-historico.zip'
+downloaded 62.2 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-10-transporte-ptomedida-historico.zip'
+downloaded 64.4 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-11-transporte-ptomedida-historico.zip'
+downloaded 62.2 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-12-transporte-ptomedida-historico.zip'
+downloaded 63.6 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-13-transporte-ptomedida-historico.zip'
+downloaded 63.1 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-14-transporte-ptomedida-historico.zip'
+downloaded 63.1 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-15-transporte-ptomedida-historico.zip'
+downloaded 64.2 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-16-transporte-ptomedida-historico.zip'
+downloaded 85.1 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-17-transporte-ptomedida-historico.zip'
+downloaded 82.8 MB
+
+probando la URL 'https://datos.madrid.es/egob/catalogo/208627-20-transporte-ptomedida-historico.zip'
+downloaded 230.5 MB
+
+Error in download.file(url, file) : 
+  download from 'https://datos.madrid.es/egob/catalogo/208627-20-transporte-ptomedida-historico.zip' failed
+Calls: <Anonymous> -> .f -> download.file
+Además: Warning message:
+In download.file(url, file) :
+  URL 'https://datos.madrid.es:443/egobfiles/MANUAL/208627/2014.zip': Timeout of 60 seconds was reached
+Ejecución interrumpida
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: RMariaDB
+Loading required package: DBI
+ℹ Using "','" as decimal and "'.'" as grouping mark. Use `read_delim()` for more control.
