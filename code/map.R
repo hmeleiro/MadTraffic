@@ -19,7 +19,8 @@ readRealTime <- function(url) {
     mutate(
       across(c(intensidad:carga, intensidadSat, velocidad), as.numeric),
       across(st_x:st_y, function(x){as.numeric(str_replace(x, ",", "."))}),
-      timestamp = as.POSIXct(timestamp, format = "%d/%m/%Y %H:%M:%S")
+      timestamp = as.POSIXct(timestamp, format = "%d/%m/%Y %H:%M:%S"),
+      nivelServicio = factor(nivelServicio, c("-1", "0", "1", "2", "3", ""))
     ) 
   
   return(x)
@@ -40,7 +41,7 @@ pal <- colorNumeric(
 )
 
 pal2 <- colorFactor(
-  palette = "Reds",
+  palette = c("gray60", "#00c300", "#7af160", "#f5d000", "#cc0000", "gray30"),
   domain = sfc$nivelServicio, reverse = F
 )
 sfc$popup <- paste(

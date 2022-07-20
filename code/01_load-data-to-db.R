@@ -9,16 +9,15 @@ connectSQL <- function() {
   drv <- dbDriver("MariaDB")
   con <- dbConnect(
     drv = drv,
-    username = 
-    password = 
-    host = 
+    username = Sys.getenv("MADTRAFFIC_USER"),
+    password = Sys.getenv("MADTRAFFIC_PASS"),
+    host = "82.223.196.145", 
     port = "3306",
     dbname = "MadTraffic"
   )
   
   return(con)
 }
-
 
 loadToDB <- function(file, con) {
   data <- read_csv2(file, show_col_types = FALSE)
