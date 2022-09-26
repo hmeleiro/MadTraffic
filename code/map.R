@@ -5,9 +5,11 @@ library(stringr)
 library(sf)
 library(ggplot2)
 library(leaflet)
+
+
 readRealTime <- function(url) {
   tmp <- tempfile()
-  download.file(url, tmp)
+  download.file(url, tmp, mode = "wb")
   x <- xmlToDataFrame(tmp)
   
   timestamp <- x$text[1]
@@ -45,67 +47,54 @@ pal2 <- colorFactor(
   domain = sfc$nivelServicio, reverse = F
 )
 sfc$popup <- paste(
-  "Nombre:", sfc$nombre, "<br>", 
+  "Nombre:", sfc$descripcion, "<br>", 
   "Carga:", sfc$carga, "<br>", 
   "Nivel servicio:", sfc$nivelServicio
 )
 
+
+library(mapdeck)
 # tiles_url <- "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"
 # tiles_url <- "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
 tiles_url <- "https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
-sfc %>% 
-  leaflet() %>%
-  addTiles(urlTemplate = tiles_url) %>%  # Add default OpenStreetMap map tiles
-  addCircles(popup = ~popup, 
-             fillColor = ~pal2(nivelServicio),
-             color = ~pal2(nivelServicio),
-             fill = T, 
-             stroke = T,
-             weight = 1.5, 
-             fillOpacity = 0.7,
-             opacity = 0.7)
 
 
 
+colores <- tibble(
+  nivelServicio = c("0", "1", "2", "3", "-1"),
+  color = c("#60d394FF", "#ffd97dFF", "#ee6055FF", "#780116FF", "#6c757dFF")
+)
+
+df <- merge(sfc, colores, by = "nivelServicio", all = T)
 
 
 
-# url <- "https://informo.madrid.es/informo/tmadrid/pm.xml"
-# dataRealTime <- readRealTime(url) %>% mutate(id = as.numeric(idelem))
-# 
-# shp <- read_sf("data/pmed_ubicacion_06-2022/pmed_ubicacion_06-2022.shp")
-# shp <- st_transform(shp, crs = "+proj=longlat +datum=WGS84")
-# # shp <- st_point_on_surface(shp)
-# 
-# 
-# shp <- merge(shp, dataRealTime, by = "id")
-# 
-# # If you want to use predefined palettes in the RColorBrewer package:
-# # Call RColorBrewer::display.brewer.all() to see all possible palettes
-# pal <- colorNumeric(
-#   palette = 'Dark2',
-#   domain = shp$carga
-# )
-# 
-# pal2 <- colorFactor(
-#   palette = c('red', 'blue', 'green', 'purple', 'orange'),
-#   domain = shp$nivelServicio
-# )
-# 
-# shp$popup <- paste(
-#   "Nombre:", shp$nombre, "<br>", 
-#   "Carga:", shp$carga, "<br>", 
-#   "Nivel servicio:", shp$nivelServicio
-# )
-# 
-# shp %>%
-#   leaflet() %>%
-#   addTiles(urlTemplate = "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png") %>%  # Add default OpenStreetMap map tiles
-#   addPolygons(popup = ~popup, 
-#               fillColor = ~pal2(nivelServicio),
-#               color = ~pal2(nivelServicio),
-#               fill = T, 
-#               stroke = T,
-#               fillOpacity = 1,
-#               smoothFactor = 1, weight = 3, opacity = 0.8)
+l1 <- legend_element(
+  variables = colores$nivelServicio,
+  colours = colores$color,
+  colour_type = "fill",
+  variable_type = "category"
+)
+js <- mapdeck_legend(l1)
+
+
+
+mapdeck(
+  style = mapdeck_style("light"),
+  location = c(-3.688236280183302, 40.43574387906006),
+  zoom = 11,
+) %>%
+  add_scatterplot(
+    data = df, 
+    radius_min_pixels = 2,
+    radius = 20, 
+    stroke_width = 0,
+    # legend = T,
+    update_view = F, 
+    focus_layer = F,
+    radius_max_pixels = 4,
+    fill_colour = "color",
+    tooltip = "popup",
+    legend = js
+  )
 
